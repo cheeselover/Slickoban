@@ -1,4 +1,4 @@
-Slickoban
+SLICKoban
 =========
 ---------
 
