@@ -4,7 +4,11 @@ SLICKoban
 
 SLICKoban Dungeons 1.0
 
-Made by:  Siva Mahadevan
+Made by:  Siva Mahadevan, Gr. 11, Bluevale Collegiate Institute
+
+First Release:  January 27, 2013
+
+Official Website:  www.sivamahadevan.tk/game
 
 Idea:  Originated from Japanese classic puzzle game, Sokoban (More info at http://en.wikipedia.org/wiki/Sokoban)
 
