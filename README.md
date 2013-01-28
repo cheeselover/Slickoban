@@ -6,6 +6,8 @@ SLICKoban Dungeons 1.0
 
 Made by:  Siva Mahadevan
 
+Idea:  Originated from Japanese classic puzzle game, Sokoban (More info at http://en.wikipedia.org/wiki/Sokoban)
+
 Purpose:  Computer Science Summative
 
 Instructions
