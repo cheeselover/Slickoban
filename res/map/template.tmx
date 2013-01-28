@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="25" height="19" tilewidth="32" tileheight="32">
+ <tileset name="floor" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../tiles/floor.gif"/>
+ </tileset>
+ <tileset name="outer_wall" firstgid="2" tilewidth="32" tileheight="32">
+  <image source="../tiles/wall.gif"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset name="inner_wall" firstgid="3" tilewidth="32" tileheight="32">
+  <image source="../tiles/inner_wall.JPG"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset name="box" firstgid="4" tilewidth="32" tileheight="32">
+  <image source="../tiles/floor.gif"/>
+  <tile id="0">
+   <properties>
+    <property name="moveable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset name="player_pos" firstgid="5" tilewidth="32" tileheight="32">
+  <image source="../tiles/floor.gif"/>
+  <tile id="0">
+   <properties>
+    <property name="player" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset name="goal" firstgid="6" tilewidth="32" tileheight="32">
+  <image source="../tiles/box_goal.png"/>
+  <tile id="0">
+   <properties>
+    <property name="goal" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset name="box_and_goal" firstgid="7" tilewidth="32" tileheight="32">
+  <image source="../tiles/box_goal.png"/>
+  <tile id="0">
+   <properties>
+    <property name="goal" value="true"/>
+    <property name="moveable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset name="name" firstgid="8" tilewidth="32" tileheight="32">
+  <image source="../tiles/floor.gif"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="Malevolent Depths of Insanity"/>
+   </properties>
+  </tile>
+ </tileset>
+ <!-- Layer data is compressed (GZip) binary data, encoded in Base64 -->
+ <layer name="Layer 0" width="25" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAGNiYGBgogNmpCFGtoODDnbQwx+jdozaMWrHqB2jdtDPDlpjAOHsJ/VsBwAA
+  </data>
+ </layer>
+</map>
